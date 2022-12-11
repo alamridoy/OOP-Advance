@@ -18,3 +18,4 @@ d1.info()
 d2.info()
 
 print(d1.__dict__)
+print(dir(d2))
