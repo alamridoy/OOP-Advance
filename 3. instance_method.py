@@ -15,3 +15,18 @@ s1.display()
     
 
 
+class House:
+  def __init__(self) -> None:
+    self.window = 4
+    self.door = 1
+    
+  def view(self):
+    print('window',self.window, 'Door', self.door)
+    
+obj1 = House()
+obj2 = House()
+
+obj1.window = 5
+obj1.view()
+obj2.view()
+
