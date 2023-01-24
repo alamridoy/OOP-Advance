@@ -14,7 +14,7 @@ class Student:
     
 
 sub = ['BBA','EEE','LLB','Ar']
-roll = 5
+roll = 10
 
 s1 = Student('Rakib',22,sub)
 s1.view(roll,sub)
